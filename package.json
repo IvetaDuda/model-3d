@@ -1,0 +1,25 @@
+{
+  "name": "model-3d",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.0.1",
+    "@react-three/fiber": "^8.16.2",
+    "framer-motion": "^11.1.7",
+    "framer-motion-3d": "^11.1.7",
+    "next": "14.2.2",
+    "react": "^18",
+    "react-dom": "^18",
+    "sass": "^1.75.0"
+  },
+  "devDependencies": {
+    "eslint": "^8",
+    "eslint-config-next": "14.2.2"
+  }
+}
