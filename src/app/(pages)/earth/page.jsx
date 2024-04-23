@@ -1,7 +1,7 @@
 // import EarthAnimation from '@/components/EarthAnimation/EarthAnimation';
 
 import Projects from '@/components/EarthAnimation/Projects/Projects';
-import SmoothScroll from '@/hooks/smoothScroll';
+import SmoothScroll from '@/components/EarthAnimation/smoothScroll';
 
 import dynamic from 'next/dynamic';
 import styles from './page.module.scss';

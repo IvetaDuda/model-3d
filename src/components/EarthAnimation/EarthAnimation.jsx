@@ -5,7 +5,7 @@ import { useScroll, useSpring } from 'framer-motion';
 import { useRef } from 'react';
 import { TextureLoader } from 'three/src/loaders/TextureLoader';
 import { motion } from 'framer-motion-3d';
-import styles from './EarthAnimation.module.scss';
+// import styles from './EarthAnimation.module.scss';
 
 const EarthAnimation = () => {
   const [color, normal, aoMap] = useLoader(TextureLoader, [
