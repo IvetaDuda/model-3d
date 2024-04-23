@@ -1,0 +1,16 @@
+.containerEarth {
+  height: 60vw;
+  background-color: #0f0f0f;
+  // padding-top: 50vh;
+  // padding-bottom: 50vh;
+  margin-top: 20vh;
+  margin-bottom: 70vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  img {
+    height: 100%;
+  }
+}

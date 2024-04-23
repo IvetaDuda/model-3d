@@ -1,0 +1,23 @@
+.headerContainer {
+  // position: fixed;
+  // z-index: 10;
+}
+
+.header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 24px;
+  padding: 16px 36px;
+}
+
+.headerLink {
+  text-decoration: none;
+  color: #ffffff;
+  // color: #232323;
+  cursor: pointer;
+  &:hover,
+  &:focus {
+    color: #9e3d20;
+  }
+}

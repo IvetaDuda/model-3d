@@ -5,7 +5,7 @@ import { OrbitControls } from '@react-three/drei';
 import { Canvas } from '@react-three/fiber';
 import { useScroll, useSpring, useTransform } from 'framer-motion';
 import { useRef } from 'react';
-import Cube from '../Cube/Cube';
+import Cube from './Cube/Cube';
 import styles from './model.module.scss';
 
 const Model = () => {
@@ -21,7 +21,7 @@ const Model = () => {
   const smothProgress = useSpring(progress, { demping: 20 });
 
   return (
-    <section ref={container} className={styles.container}>
+    <section ref={container} className={`${styles.container} container`}>
       <div className={styles.cube}>
         <Canvas>
           {/* <ScrollControls pages={5} damping={0.1}> */}
