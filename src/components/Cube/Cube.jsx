@@ -61,14 +61,14 @@ const Cube = () => {
     TextureLoader,
     '/assents/pexels-katja-592077.jpg'
   );
-  const texture_7 = useLoader(
-    TextureLoader,
-    '/assents/pexels-markus-spiske-108486.jpg'
-  );
-  const texture_8 = useLoader(
-    TextureLoader,
-    '/assents/top-view-frame-with-beauty-products-copy-space.jpg'
-  );
+  // const texture_7 = useLoader(
+  //   TextureLoader,
+  //   '/assents/pexels-markus-spiske-108486.jpg'
+  // );
+  // const texture_8 = useLoader(
+  //   TextureLoader,
+  //   '/assents/top-view-frame-with-beauty-products-copy-space.jpg'
+  // );
   return (
     <motion.mesh ref={mesh} rotation-x={mouse.y} rotation-y={mouse.x}>
       <boxGeometry args={[2.5, 2.5, 2.5]} />
@@ -78,8 +78,8 @@ const Cube = () => {
       <meshStandardMaterial map={texture_4} attach="material-3" />
       <meshStandardMaterial map={texture_5} attach="material-4" />
       <meshStandardMaterial map={texture_6} attach="material-5" />
-      <meshStandardMaterial map={texture_7} attach="material-6" />
-      <meshStandardMaterial map={texture_8} attach="material-7" />
+      {/* <meshStandardMaterial map={texture_7} attach="material-6" />
+      <meshStandardMaterial map={texture_8} attach="material-7" /> */}
       {/* <meshStandardMaterial color={'orange'} /> */}
     </motion.mesh>
   );
