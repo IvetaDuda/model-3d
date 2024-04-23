@@ -1,9 +1,10 @@
 'use client';
 
 import { useRef } from 'react';
-import { useFrame, useLoader } from '@react-three/fiber';
+import { useLoader } from '@react-three/fiber';
+// import { useFrame, useLoader } from '@react-three/fiber';
 import { TextureLoader } from 'three/src/loaders/TextureLoader';
-import { motionValue } from 'framer-motion';
+import { useMotionValue } from 'framer-motion';
 import { motion } from 'framer-motion-3d';
 import { useEffect } from 'react';
 
@@ -11,8 +12,8 @@ const Cube = () => {
   const mesh = useRef(null);
 
   const mouse = {
-    x: motionValue(0),
-    y: motionValue(0),
+    x: useMotionValue(0),
+    y: useMotionValue(0),
   };
 
   const manageMouseMove = (e) => {
